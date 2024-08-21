@@ -11,8 +11,13 @@ DeHashedHunter is a Python utility to interact with the DeHashed API. The tool c
     --silent     : Run without terminal output (for report-only mode)
 ## Examples:
 Search a single email and output results:
+
 ```python dehashedhunter.py --query "example@example.com" --field email --csv results.csv --html results.html```
+
 Search a list of phone numbers and save results:
+
 ```python dehashedhunter.py --list phones.txt --field phone --csv results.csv --html results.html```
+
 Run in silent mode with HTML and CSV reports:
+
 ```python dehashedhunter.py --list queries.txt --field name --csv results.csv --html results.html --silent```
