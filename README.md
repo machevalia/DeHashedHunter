@@ -21,6 +21,7 @@ Search a list of phone numbers and save results:
 Run in silent mode with HTML and CSV reports:
 
 ```python dehashedhunter.py --list queries.txt --field name --csv results.csv --html results.html --silent```
+
 ![image](https://github.com/user-attachments/assets/746cd320-844b-43c0-bab3-c2423396062d)
 
 ### Results:
